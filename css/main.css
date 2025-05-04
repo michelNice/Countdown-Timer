@@ -6,13 +6,12 @@
 
 body {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   height: 100vh;
   flex-direction: column;
   font-family: "Orbitron", sans-serif;
   background: #0f172a;
-  width: 100%;
   padding: 1rem;
 }
 
@@ -20,22 +19,21 @@ h1 {
   font-size: 4rem;
   padding: 2rem 0;
   color: #f1f5f9;
-  text-align: center;
 }
 
 .countdown {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   gap: 50px;
   flex-wrap: wrap;
 }
 
 .countdown .time {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background: #38bdf8;
   border-radius: 0.5rem;
   width: 320px;

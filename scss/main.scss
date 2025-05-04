@@ -12,6 +12,12 @@ $colors: (
   }
 }
 
+@mixin flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -19,14 +25,11 @@ $colors: (
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ @include flex();
   height: 100vh;
   flex-direction: column;
   font-family: 'Orbitron', sans-serif;
   background: color("primary");
-  width: 100%;
   padding: 1rem;
 }
 
@@ -34,22 +37,17 @@ h1 {
   font-size: 4rem;
   padding: 2rem 0;
   color: color("text");
-  text-align: center;
 }
 
 .countdown {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex();
   gap: 50px;
   flex-wrap: wrap; 
 }
 
 .countdown .time {
-  display: flex;
+  @include flex();
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background: color("accent");
   border-radius: .5rem;
   width: 320px;
