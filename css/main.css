@@ -13,6 +13,7 @@ body {
   font-family: "Orbitron", sans-serif;
   background: #0f172a;
   padding: 1rem;
+  overflow-y: hidden;
 }
 
 h1 {
@@ -61,13 +62,14 @@ h1 {
 /********** Mobile (max-width: 592px) **********/
 @media (max-width: 37rem) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
   }
   .countdown {
     gap: 15px;
   }
   .countdown .time {
-    width: 70px;
+    width: 75px;
     height: 50px;
     font-size: 1rem;
   }
