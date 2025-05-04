@@ -48,7 +48,7 @@ h1 {
 @media (max-width: 85rem) {
   h1 {
     font-size: 3rem;
-    padding: 1.5rem 0;
+    padding: 2rem 0;
   }
   .countdown {
     gap: 20px;
@@ -62,8 +62,7 @@ h1 {
 /********** Mobile (max-width: 592px) **********/
 @media (max-width: 37rem) {
   h1 {
-    font-size: 2rem;
-    padding: 1rem 0;
+    font-size: 1.5rem;
   }
   .countdown {
     gap: 15px;
